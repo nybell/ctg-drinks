@@ -10,7 +10,7 @@ import QRCode from "qrcode";
  * Passes data via react-router location.state: { counts, drinks }
  */
 
-const BENEFICIARY_NAME = "CTG Drinks Fund";
+const BENEFICIARY_NAME = "HR C Romero";
 const IBAN = "NL48 INGB 0796 8723 92"; // CTG Drinks Fund IBAN (Currently CR)
 const DESCRIPTION_PREFIX = "Lab drinks";
 
@@ -137,7 +137,7 @@ export default function PaymentPage() {
   async function handleDone() {
     await logToSheet();
     setShowThankYou(true);
-    await new Promise((r) => setTimeout(r, 1200));
+    await new Promise((r) => setTimeout(r, 2000));
     navigate("/");
   }
 
@@ -286,8 +286,8 @@ export default function PaymentPage() {
       {showThankYou && (
         <div className="fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm z-50">
           <div className="bg-white rounded-2xl px-6 py-4 text-center shadow-lg text-neutral-800">
-            <p className="text-lg font-semibold">Thanks for contributing ☕💚</p>
-            <p className="text-sm text-neutral-500 mt-1">You're keeping the lab fueled.</p>
+            <p className="text-lg font-semibold">Thanks for paying ☕💚</p>
+            <p className="text-sm text-neutral-500 mt-1">Come back soon.</p>
           </div>
         </div>
       )}

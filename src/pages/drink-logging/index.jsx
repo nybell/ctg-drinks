@@ -10,9 +10,9 @@ import { useNavigate } from "react-router-dom";
  */
 
 const DRINKS = [
-  { id: "beer",   label: "Beer",   price: 1.50 },
-  { id: "wine",   label: "Wine",   price: 2.00 },
-  { id: "liquor", label: "Liquor", price: 3.00 },
+  { id: "beer",   label: "Beer",   price: 2.00 },
+  { id: "wine",   label: "Wine",   price: 2.50 },
+  { id: "liquor", label: "Liquor", price: 4.00 },
 ];
 
 export default function DrinkLogging() {
@@ -38,13 +38,13 @@ export default function DrinkLogging() {
   return (
     <div className="min-h-screen bg-neutral-50 text-neutral-900">
       <header className="sticky top-0 bg-white/80 backdrop-blur border-b border-neutral-200 px-4 py-3">
-        <h1 className="text-lg font-semibold">Lab Drinks</h1>
-        <p className="text-sm text-neutral-600">Log your drinks and see the total</p>
+        <h1 className="text-lg font-semibold">🧠 CTG Lab Drinks 🧬</h1>
+        <p className="text-sm text-neutral-600">Enter your drinks and click confirm to go to payment</p>
       </header>
 
       <main className="max-w-lg mx-auto px-4 py-6 space-y-6">
         <section className="bg-white rounded-2xl border border-neutral-200 p-4">
-          <h2 className="text-sm font-semibold mb-3">Log Your Drinks</h2>
+          <h2 className="text-sm font-semibold mb-3">Log Your Drinks 🍻</h2>
 
           <div className="space-y-2">
             {DRINKS.map((d) => (
@@ -95,7 +95,7 @@ export default function DrinkLogging() {
         </section>
       </main>
 
-      <footer className="px-4 py-6 text-center text-xs text-neutral-500">🧬 See you next time 🧬</footer>
+      <footer className="px-4 py-6 text-center text-xs text-neutral-500">💛 Maintained by Cabbage & Amanda 🧬</footer>
     </div>
   );
 }
