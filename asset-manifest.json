@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ctg-drinks/static/css/main.19147a0a.css",
-    "main.js": "/ctg-drinks/static/js/main.2061bd9b.js",
+    "main.js": "/ctg-drinks/static/js/main.5972f276.js",
     "static/js/453.db7d492c.chunk.js": "/ctg-drinks/static/js/453.db7d492c.chunk.js",
     "index.html": "/ctg-drinks/index.html",
     "main.19147a0a.css.map": "/ctg-drinks/static/css/main.19147a0a.css.map",
-    "main.2061bd9b.js.map": "/ctg-drinks/static/js/main.2061bd9b.js.map",
+    "main.5972f276.js.map": "/ctg-drinks/static/js/main.5972f276.js.map",
     "453.db7d492c.chunk.js.map": "/ctg-drinks/static/js/453.db7d492c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19147a0a.css",
-    "static/js/main.2061bd9b.js"
+    "static/js/main.5972f276.js"
   ]
 }
